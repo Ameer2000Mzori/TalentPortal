@@ -1,3 +1,22 @@
+# User Stories
+
+For the given task, i meticulously formulated a series of user stories.
+
+- As a user, I want to be able to easily navigate through the website so that I can quickly find the right content.
+  - Header with the TalentPortal logo which leads to the homepage
+  - Multiple links which lead to the corresponding pages
+- As a user, I want to be able to find the newest jobs under the search input and button on the home page page.
+  - Multiple links which lead to the corresponding pages
+- As a user, I want to see the latest jobs on the homepage so I know what's going on.
+  - Show the three latest jobs with a click through to the blog detail page
+  - When there are no jobs found hide this block and show a message that there are no blog posts found
+- As a user, I want to be able to navigate through different job posts on a home page so I can see everything.
+  - Show 9 jobs on each page
+  - Able to navigate through blog posts using the pagination below the blog items
+- As a user, I want to be able to search through different jobs posts.
+  - Able to search in a text input field
+  - When searching filter the jobs items on the search phrase
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
