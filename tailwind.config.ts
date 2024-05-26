@@ -14,14 +14,10 @@ const config: Config = {
         md: '768px',
         lg: '1024px',
         xl: '1280px',
-        '1xl': '1350px',
-        '2xl': '1536px',
-        '3xl': '2048px',
-        '4xl': '2560px',
-        '5xl': '3072px',
-        '6xl': '3584px',
-        '7xl': '4096px',
-        '8xl': '4608px',
+        xxl: '1350px',
+        xxxl: '1536px',
+        xxxxl: '2048px',
+        xxxxxl: '2560px',
       },
 
       backgroundImage: {

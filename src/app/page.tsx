@@ -1,10 +1,10 @@
-import Header from './header/page'
-
+import Header from '@/app/header/page'
+import SearchForm from '@/app/form/page'
 export default function Home() {
   return (
     <div>
       <Header />
-      <div>home page</div>
+      <SearchForm />
     </div>
   )
 }
