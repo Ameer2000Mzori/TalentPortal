@@ -37,7 +37,7 @@ export default function SearchForm() {
           />
         </div>
 
-        <button className="w-[152px] h-[44px]  rounded-[8px] text-white ml-[15px] bg-[#164081] hover:bg-[#163081] active:bg-[#162081]">
+        <button className="w-[152px] h-[44px]  rounded-[8px] text-white ml-[15px] mr-[15px] bg-[#164081] hover:bg-[#163081] active:bg-[#162081]">
           Search
         </button>
       </form>
