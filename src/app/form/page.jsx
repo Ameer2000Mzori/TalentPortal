@@ -15,7 +15,7 @@ export default function SearchForm() {
           />
           <input
             type="text"
-            placeholder="Search"
+            placeholder="job title..."
             className="  w-[100%] leading-[24px] h-[100%]  p-[8px] pr-[4px] focus:outline-none focus:border-b-2 border-[#013a9bff] "
           />
         </div>
@@ -32,7 +32,7 @@ export default function SearchForm() {
 
           <input
             type="text"
-            placeholder="Search"
+            placeholder="location..."
             className="  w-[100%] leading-[24px] h-[100%]  p-[8px] pr-[4px] focus:outline-none focus:border-b-2 border-[#013a9bff] "
           />
         </div>
