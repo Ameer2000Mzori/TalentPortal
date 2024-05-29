@@ -6,7 +6,7 @@ export default function JobsList() {
       {jobsData.map((job, index) => (
         <div
           key={index}
-          className=" hover:shadow-[5px_-5px_5px_5px_rgba(45,78,255,0.15)] transition-all duration-300 ease-in-out cursor-pointer relative pt-[15px] h-[300px] w-[100%] border border-[#cacaca] mt-[12px] rounded-[7px]"
+          className=" hover:shadow-[0px_0px_5px_5px_rgba(45,78,255,0.15)] transition-all duration-300 ease-in-out cursor-pointer relative pt-[15px] h-[300px] w-[100%] border border-[#cacaca] mt-[12px] rounded-[7px]"
         >
           <div className="flex flex-col w-[100%] h-[100%]  justify-start text-start items-start gap-[5px] pr-[6px] pl-[16px] pt-[5px] pb-[5px] overflow-hidden">
             <Badge data="new" />
