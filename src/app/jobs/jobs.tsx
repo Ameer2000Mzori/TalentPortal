@@ -8,7 +8,7 @@ export default function JobsPage() {
         <div className="w-[25%] h-auto pb-[2rem] ">
           <JobsList />
         </div>
-        <div className="w-[30%] h-[900px] border border-[#949494] ">
+        <div className="w-[30%] h-[98vh] border border-[#949494] sticky top-2 ">
           <SelectedJob />
         </div>
       </div>
