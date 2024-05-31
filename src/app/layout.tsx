@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <NextUIProvider>
-      <html lang="en">
-        <body className={inter.className}>{children}</body>
-      </html>
-    </NextUIProvider>
+    <html lang="en">
+      <body className={inter.className}>
+        <NextUIProvider>{children}</NextUIProvider>
+      </body>
+    </html>
   )
 }
