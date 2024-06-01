@@ -1,4 +1,4 @@
-import SelectedJob from '../job/job'
+import SelectedJob from './[id]/job'
 import JobsList from '../jobslist/jobsList'
 
 export default function JobsPage() {

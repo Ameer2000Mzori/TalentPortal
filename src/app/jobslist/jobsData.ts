@@ -16,6 +16,7 @@ export const jobsData: jobsTypes[] = [
     location: 'New York, NY',
     date: '2024-05-01',
     logo: 'https://example.com/logos/techcorp.png',
+
     new: true,
   },
   {

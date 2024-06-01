@@ -16,7 +16,12 @@ export default function JobsList() {
             <p className="mt-[5px] mb-[5px] font-[13px] text-slate-600">
               {job.location}
             </p>
-            <p>{job.description}</p>
+            <div className="mt-[10px]">
+              <li>{job.description}</li>
+              <li>{job.description}</li>
+              <li>{job.description}</li>
+              <li>{job.description}</li>
+            </div>
           </div>
           <div className=" absolute flex flex-row left-[5px] pr-[5px] pl-[5px] bottom-[5px] text-start items-center justify-center gap-[5px] text-[11px] text-slate-300">
             <p className="text-[15px] p-0 m-0">{job.date}</p>
