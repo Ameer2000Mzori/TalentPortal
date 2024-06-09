@@ -1,4 +1,4 @@
-# User Stories
+# User Storie
 
 For the given task, i meticulously formulated a series of user stories.
 
