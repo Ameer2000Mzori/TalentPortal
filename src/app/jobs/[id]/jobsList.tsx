@@ -1,5 +1,5 @@
-import Badge from '../shared/badge'
-import { jobsData } from './jobsData'
+import Badge from '@/app/shared/badge'
+import { jobsData } from '@/app/shared/jobsData'
 export default function JobsList() {
   return (
     <div className="text-[#2d2d2d]">
@@ -10,11 +10,11 @@ export default function JobsList() {
         >
           <div className="flex flex-col w-[100%] h-[100%]  justify-start text-start items-start gap-[5px] pr-[6px] pl-[16px] pt-[5px] pb-[5px] overflow-hidden">
             <Badge data="new" />
-            <p className="font-bold text-[19px]">
-              {job.company}, {job.title}
+            <p className="font-bold text-[19px] max-w-[100%] max-h-[30px] overflow-hidden">
+              {job.title}
             </p>
             <p className="mt-[5px] mb-[5px] font-[13px] text-slate-600">
-              {job.location}
+              {job.company} | {job.location}
             </p>
             <div className="mt-[10px]">
               <li>{job.description}</li>

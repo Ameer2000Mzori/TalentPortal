@@ -10,7 +10,8 @@ export type jobsTypes = {
 
 export const jobsData: jobsTypes[] = [
   {
-    title: 'Software Engineer',
+    title:
+      'Software EngineerSoftware EngineerSoftware EngineerSoftware EngineerSoftware Engineer',
     description: 'Develop and maintain web applications.',
     company: 'TechCorp',
     location: 'New York, NY',
