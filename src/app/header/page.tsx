@@ -16,11 +16,20 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex flex-row text-center items-center justify-between gap-[22px] h-[100%] font leading-[24px] text-[14px] ">
-          <Link href="/">
-            <h1 className="text-[14px] text-[#2d2d2d] leading-[21px] underline">
-              create account
-            </h1>
-          </Link>
+          <div className="flex flex-row text-center items-center justify-center gap-[5px]">
+            <Link href="/">
+              <h1 className="text-[14px] text-[#2d2d2d] leading-[21px] underline">
+                create account
+              </h1>
+            </Link>
+            <p> or </p>
+
+            <Link href={'/'}>
+              <h1 className="text-[14px] text-[#2d2d2d] leading-[21px] underline">
+                login
+              </h1>
+            </Link>
+          </div>
           <div className="h-[30%] w-[1px] bg-slate-300"></div>
           <Link href="/">
             <h1 className="text-[14px] text-[#2d2d2d] leading-[21px] underline">
