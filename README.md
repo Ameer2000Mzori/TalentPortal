@@ -1,6 +1,6 @@
 # User Storie
 
-For the given task, i meticulously formulated a series of user stories.
+For the given task, i meticulously formulated a series of user stories,
 
 - As a user, I want to be able to easily navigate through the website so that I can quickly find the right content.
   - Header with the TalentPortal logo which leads to the homepage
